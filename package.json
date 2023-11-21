@@ -1,0 +1,109 @@
+{
+  "name": "styled-antd-icon",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Styled Antd Icon 是一个与 chakra-ui 的 Icon 功能一致的库，集成了styled-antd，专门为antd而开发，支持antd的主题配置。",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WaldenLiang/styled-antd-icon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WaldenLiang/styled-antd-icon/issues"
+  },
+  "homepage": "https://github.com/WaldenLiang/styled-antd-icon",
+  "author": "Walden Liang<waldenliang@outlook.com>",
+  "license": "ISC",
+  "keywords": [
+    "styled-antd-icon",
+    "icon",
+    "styled-antd",
+    "antd-design",
+    "antd",
+    "ant",
+    "css",
+    "styled",
+    "components",
+    "css-in-js",
+    "theming",
+    "theme",
+    "style"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "browser": {
+        "require": "./dist/index.cjs",
+        "default": "./dist/index.js"
+      },
+      "default": {
+        "require": "./dist/index.cjs",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-antd": "^0.4.0"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/react": "^7.5.3",
+    "@storybook/react-vite": "^7.5.3",
+    "@storybook/testing-library": "^0.2.2",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.2",
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.9.1",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "antd": "^5.11.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "eslint-plugin-storybook": "^0.6.15",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.3",
+    "styled-antd": "^0.4.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.3"
+  }
+}
