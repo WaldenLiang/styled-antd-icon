@@ -1,6 +1,6 @@
 {
   "name": "styled-antd-icon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "Styled Antd Icon 是一个与 chakra-ui 的 Icon 功能一致的库，集成了styled-antd，专门为antd而开发，支持antd的主题配置。",
   "repository": {
